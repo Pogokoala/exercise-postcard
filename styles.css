@@ -12,6 +12,7 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	border-radius: 10px;
 }
 
 .postcard-header {
@@ -26,6 +27,7 @@ body {
 .postcard-header h1 {
 	width: 350px;
 	margin: 1px;
+	font-family: cursive;
 }
 
 .postcard-body {
@@ -41,6 +43,10 @@ body {
 	padding: 10px;
 }
 
+p {
+	font-family:cursive;
+}
+
 input {
 	border: 0;
 	margin-bottom: 40px;
@@ -49,11 +55,12 @@ input {
 
 .postcard-footer {
 	text-align: center;
-	height: 50px;
-	padding: 10px;
+	height: 25px;
+	padding: 0px;
 }
 
 button {
 	background-color: skyblue;
-	padding: 5px;
+    padding: 3px;
+    margin-top: -10px;
 }
